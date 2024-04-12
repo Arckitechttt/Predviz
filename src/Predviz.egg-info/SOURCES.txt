@@ -7,4 +7,5 @@ src/Predviz/__init__.py
 src/Predviz.egg-info/PKG-INFO
 src/Predviz.egg-info/SOURCES.txt
 src/Predviz.egg-info/dependency_links.txt
+src/Predviz.egg-info/requires.txt
 src/Predviz.egg-info/top_level.txt
