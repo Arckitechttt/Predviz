@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="Predviz",
-    version="0.0.3",
+    version="0.0.4",
     dependencies=["matplotlib>3.6", "pandas>2.1", "numpy>1.2"],
     author="Alfrethanov Christian Wijaya",
     author_email="alfrethanovcwjy@gmail.com",
@@ -23,4 +23,5 @@ setup(
     package_dir={"": "src"},
     packages=find_packages(where="src"),
     python_requires=">=3.8",
+    dependency_links=["git+https://github.com/Arckitechttt/Predviz.git@main#egg=Predviz"]
 )
